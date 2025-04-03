@@ -1,5 +1,4 @@
 import { useState, useRef, useEffect } from "react";
-import html2canvas from "html2canvas";
 // Card Search Component (with your existing code)
 function CardSearch({ onSelect }) {
 	const [query, setQuery] = useState("");
